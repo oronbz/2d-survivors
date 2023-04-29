@@ -17,6 +17,6 @@ func _process(delta):
 
 func get_direction_to_player():
 	var player = get_tree().get_first_node_in_group("player") as Node2D
-	if !player: return Vector2.ZERO
+	if player == null: return Vector2.ZERO
 	
 	return (player.global_position - global_position).normalized()
