@@ -19,7 +19,37 @@ layer_0/tile_data = PackedInt32Array(262147, 0, 4, 262148, 0, 4, 262149, 65536, 
 position = Vector2(136, 92)
 
 [node name="BasicEnemy" parent="." instance=ExtResource("4_grb62")]
-position = Vector2(339, 191)
+position = Vector2(253, 342)
 
 [node name="BasicEnemy2" parent="." instance=ExtResource("4_grb62")]
 position = Vector2(453, 171)
+
+[node name="BasicEnemy3" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(271, 208)
+
+[node name="BasicEnemy4" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(584, 294)
+
+[node name="BasicEnemy5" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(587, 128)
+
+[node name="BasicEnemy6" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(402, 283)
+
+[node name="BasicEnemy7" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(393, 433)
+
+[node name="BasicEnemy8" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(602, 414)
+
+[node name="BasicEnemy9" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(281, 519)
+
+[node name="BasicEnemy10" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(494, 545)
+
+[node name="BasicEnemy11" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(739, 537)
+
+[node name="BasicEnemy12" parent="." instance=ExtResource("4_grb62")]
+position = Vector2(754, 331)
