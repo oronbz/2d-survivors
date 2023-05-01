@@ -33,7 +33,8 @@ func on_timer_timeout():
 	
 	var enemy = enemies[0] as Node2D
 	var sword = sword_ability_scene.instantiate() as SwordAbility
-	player.get_parent().add_child(sword)
+	var foreground_layer = get_tree().get_first_node_in_group("foreground_layer")
+	foreground_layer.add_child(sword)
 	sword.hitbox_component.damage = damage
 	
 	sword.global_position = enemy.global_position
