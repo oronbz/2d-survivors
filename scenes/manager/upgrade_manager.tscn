@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://chdkqaiv5288v"]
+
+[ext_resource type="Script" path="res://scenes/manager/upgrade_manager.gd" id="1_5oh0e"]
+[ext_resource type="Resource" uid="uid://dg2x7jguf1g8s" path="res://resources/upgrades/sword_rate.tres" id="2_s1agt"]
+
+[node name="UpgradeManager" type="Node"]
+script = ExtResource("1_5oh0e")
+upgrade_pool = Array[Resource("res://resources/upgrades/ability_upgrade.gd")]([ExtResource("2_s1agt")])
